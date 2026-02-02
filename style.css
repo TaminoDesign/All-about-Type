@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.linebody {
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 2px;
+    height: fill;
+    background-color: black;
+}
+
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    max-width: 1280px;
+}
+
+section h3 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Junicode';
+    src: url('assets/Junicode-RegularCondensed.ttf');
+}
+
+@font-face {
+    font-family: 'SpaceMono';
+    src: url('assets/SpaceMono-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Playfair';
+    src: url('assets/PlayfairDisplay-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Bespoke';
+    src: url('assets/BespokeSlab-Variable.ttf');
+}
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('assets/Archivo-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Pilcrow';
+    src: url('assets/PilcrowRounded-Medium.otf');
+}
+
+h1 {
+    font-family: 'Junicode';
+    font-size: 4em;
+    font-weight: 400;
+    mix-blend-mode: overlay;
+}
+
+h2 {
+    font-family: 'Junicode';
+    font-size: 2em;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-family: 'SpaceMono';
+    font-size: 1em;
+    font-weight: 400;
+    align-items: center;
+    width: 100%;
+}
+
+h4 {
+    padding-bottom: 20px;
+}
+
+p {
+    font-family: 'Poppins';
+    font-size: 1em;
+}
+
+li {
+    font-family: 'Poppins';
+    font-size: 1em;
+}
+
+a h3, a p {
+    color: burlywood;
+    text-decoration: dashed;
+    text-decoration: burlywood;
+    cursor: pointer;
+    font-family: 'SpaceMono';
+}
+
+a h3:hover, a p:hover {
+    color: black;
+    text-decoration: dotted;
+}
+
+.Playfair {
+    font-family: 'Playfair';
+}
+
+.Poppins {
+    font-family: 'Poppins';
+}
+
+.Bespoke {
+    font-family: 'Bespoke';
+}
+
+.Pilcrow {
+    font-family: 'Pilcrow';
+}
+
+.Archivo {
+    font-family: 'Archivo';
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('assets/paperbackground2.png');
+}
+
+.fontexample1 {
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.218);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fontexample2 {
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.218);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fontexample3 {
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.218);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.do1, .do2, .do3 {
+    border: 1px solid rgb(27, 93, 27);
+    padding: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.218);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.leading {
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.218);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tracking {
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.218);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.typeimage {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.fontCategories div {
+    margin-bottom: 20px;
+}
